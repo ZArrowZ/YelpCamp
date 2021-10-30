@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campgrounds</title>
+    <link rel="stylesheet" href="css/main.css">
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="all">
+        <div class="info">
+            <div class="text">
+                <h4>This project was made by <a href="https://github.com/Colt">Colt Steele</a> and designed by <a href="https://www.codewell.cc/">Codewell</a></h4>
+            </div>
+            <div class="close">
+                <img id="close" src="D:/Projects/YelpCamp/Assets/Close.svg" alt="close">
+            </div>
+        </div>
+        <header>
+            <div class="logo__container">
+                <img class="logo" src="D:/Projects/YelpCamp/Assets/Logo.svg" alt="YelpCamp logo">
+                <a id="home" href="/index.html">Home</a>
+            </div>
+            <div class="sign__container">
+                <div class="notLogged">
+                    <a href="D:/Projects/YelpCamp/Site/4 Sign In/index.html">Login</a>
+                    <a id="createAcc" href="D:/Projects/YelpCamp/Site/3 Sign Up/index.html">Create an account</a>
+                </div>
+                <img class="menu" src="D:/Projects/YelpCamp/Assets/Hamburger Menu.svg">
+
+                <div class="menu__container">
+                    <ion-icon class="close__menu" name="close-outline"></ion-icon>
+                    <div class="burger__links">
+                        <a id="home" href="/index.html">Home</a>
+                        <a href="D:/Projects/YelpCamp/Site/4 Sign In/index.html">Login</a>
+                        <a id="createAcc" href="D:/Projects/YelpCamp/Site/3 Sign Up/index.html">Create an account</a>
+                    </div>
+                    <div class="logged__inside">
+                        <h4></h4>
+                        <a class="logout" href="#">Logout</a>
+                    </div>
+                </div>
+
+                <div class="logged__outside">
+                    <h4></h4>
+                    <a class="logout" href="#">Logout</a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="header__content">
+                <div class="inside__header">
+                    <h1>Welcome to YelpCamp!</h1>
+                    <p>view our hand-picked campgrounds form all over the world, or add your own.</p>
+                    <form>
+                        <img src="D:/Projects/YelpCamp/Assets/Search Icon.svg">
+                        <input id="filter" type="search" placeholder="Search for camps" aria-label="Search through site content">
+                        <button type="button" id="btn">Search</button>
+                    </form>
+                    <a href="D:/Projects/YelpCamp/Site/5 New Campground/index.html">Or add your own campground</a>
+                </div>
+            </div>
+
+            <ul class="camps__container">
+                <li class="camp">
+                    <img src="D:/Projects/YelpCamp/Assets/Camp Images/Mount Ulap.jpg" alt="reaver and trees in the natural">
+                    <h3>Mount Ulap</h3>
+                    <p>One of the most famous hikes in Benguet is Mt Ulap in Itogon.</p>
+                    <a href="D:/Projects/YelpCamp/Site/6 Mount Ulap/index.html">View Campground</a>
+                </li>
+                <li class="camp">
+                    <img src="D:/Projects/YelpCamp/Assets/Camp Images/Calaguas Island.jpg" alt="photo of natural mountains and trees">
+                    <h3>Calaguas Islands</h3>
+                    <p>A paradise of islands that can rival the white sand beauty of Boracay.</p>
+                    <a href="#">View Campground</a>
+                </li>
+                <li class="camp">
+                    <img src="D:/Projects/YelpCamp/Assets/Camp Images/Onay Beach.jpg" alt="photo of mountains and sea and trees in the natural">
+                    <h3>Onay Beach</h3>
+                    <p>This is one of the best beach camping sites, beautiful pristine.</p>
+                    <a href="#">View Campground</a>
+                </li>
+                <li class="camp">
+                    <img src="D:/Projects/YelpCamp/Assets/Camp Images/Seven Sisters Waterfall.jpg" alt="photo of road and mountain and some trees">
+                    <h3>Seven Sisters Waterfall</h3>
+                    <p>The Seven Sisters is the 39th tallest waterfall in Norway.</p>
+                    <a href="#">View Campground</a>
+                </li>
+                <li class="camp">
+                    <img src="D:/Projects/YelpCamp/Assets/Camp Images/Latik Riverside.jpg" alt="photo of hill under it some trees in the natural">
+                    <h3>Latik Riverside</h3>
+                    <p>Philippines is one of the most dazzling countries in all of Asia.</p>
+                    <a href="#">View Campground</a>
+                </li>
+                <li class="camp">
+                    <img src="D:/Projects/YelpCamp/Assets/Camp Images/Buloy Springs.jpg" alt="photo of desert there is a little of planets in the ground and two hills">
+                    <h3>Buloy Springs</h3>
+                    <p>This is one of the best beach camping sites, beautiful and pristine.</p>
+                    <a href="#">View Campground</a>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <img src="D:/Projects/YelpCamp/Assets/Logo.svg" alt="YelpCamp logo">
+        </footer>
+    </div>
+<!-- icons -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!-- javascript link -->
+<script src="/Site/3 Sign Up/javascript/app.js"></script>
+<script src="javascript/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+@media (max-width: 73.75rem) {
+  .camps__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .inside__header {
+    width: 70%;
+  }
+  .camp {
+    flex-basis: 45%;
+  }
+  .logo__container {
+    a {
+      display: none;
+    }
+  }
+  .sign__container {
+    a {
+      display: none;
+    }
+    .logged__outside {
+      display: none;
+    }
+    .menu {
+      display: inline-block;
+      cursor: pointer;
+      background: $background-color;
+      padding: 0.5rem;
+    }
+  }
+  .menu__container {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 2.03rem;
+    width: 15rem;
+    height: 100vh;
+    background-color: black;
+    z-index: 1000;
+
+    a {
+      display: block;
+      color: white;
+      font-size: 1.2rem;
+      margin: 1rem;
+      position: relative;
+      top: 4rem;
+      text-align: center;
+    }
+    #home {
+      top: 4rem;
+    }
+    #createAcc {
+      font-size: 1.2rem;
+      background-color: white;
+      color: black;
+      padding: 12px 12px;
+      margin-left: 1rem;
+    }
+    .close__menu {
+      color: white;
+      position: absolute;
+      font-size: 1.5rem;
+      left: 0;
+      padding: 1rem;
+      cursor: pointer;
+    }
+    .burger__links {
+      display: block;
+    }
+    .logged__inside {
+      display: none;
+      color: white;
+      font-size: 1.2rem;
+      margin: 1rem;
+      position: relative;
+      top: 4rem;
+      text-align: center;
+
+      a {
+        margin: 0;
+        top: 2rem;
+      }
+    }
+  }
+}

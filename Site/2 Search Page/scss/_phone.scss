@@ -1,0 +1,39 @@
+@media (max-width: 44.375rem) {
+  .camps__container {
+    gap: 1rem;
+  }
+  .camp {
+    flex-basis: 100%;
+  }
+  .header__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .inside__header {
+    width: 80%;
+  }
+  form {
+    flex-direction: column;
+
+    input {
+      width: 100%;
+      margin: auto;
+    }
+    input::placeholder {
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: center;
+    }
+    button {
+      width: 100%;
+      margin: 1rem auto;
+      padding: 1rem;
+    }
+  }
+}
+
+@media (max-width: 507px) {
+  .menu__container {
+    top: 3rem;
+  }
+}

@@ -1,0 +1,91 @@
+$icon-color: black;
+$background-color: #f9f6f1;
+$text-color: #686868;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+main,
+header,
+footer {
+  width: 85%;
+  margin: auto;
+}
+
+@import "header";
+
+p {
+  color: $text-color;
+}
+.header__content {
+  display: flex;
+  flex-direction: column;
+  background-color: $background-color;
+}
+.inside__header {
+  margin: 4rem;
+  width: 50%;
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  a {
+    color: $text-color;
+  }
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 1rem 0;
+
+  input {
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    border: 1px solid rgba($text-color, 0.3);
+    text-align: center;
+  }
+
+  input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+  }
+
+  input::placeholder {
+    padding-left: 1rem;
+  }
+
+  img {
+    position: absolute;
+    padding: 1rem;
+  }
+
+  button {
+    margin-left: 1rem;
+    padding: 0 1.4rem;
+    cursor: pointer;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+}
+
+@import "camps";
+
+footer {
+  margin: 1rem auto;
+
+  img {
+    position: relative;
+    margin: 3rem 0;
+    width: 7rem;
+  }
+}
+
+@import "tablet";
+@import "phone";

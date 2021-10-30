@@ -1,0 +1,61 @@
+$icon-color: black;
+$background-color: #f9f6f1;
+$text-color: #686868;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+main,
+header,
+footer {
+  width: 85%;
+  margin: auto;
+}
+
+@import "header";
+
+p {
+  color: $text-color;
+  line-height: 1.5rem;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  justify-content: space-between;
+  grid-gap: 2rem;
+}
+
+@import "content";
+@import "map";
+@import "review";
+
+footer {
+  margin: 1rem auto;
+
+  img {
+    position: relative;
+    margin: 3rem 0;
+    width: 7rem;
+  }
+}
+
+@media (max-width: 75rem) {
+  main {
+    grid-template-columns: 100% 100% 100%;
+  }
+}
+@media (max-width: 31.6875rem) {
+  main,
+  header,
+  footer {
+    width: 85%;
+    margin: auto;
+  }
+}
+
+@import "tablets";
+@import "phones";

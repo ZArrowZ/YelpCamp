@@ -1,0 +1,36 @@
+@media (max-width: 34.375rem) {
+  .header {
+    width: 90%;
+    gap: 4rem;
+
+    a {
+      top: 0rem;
+    }
+  }
+  .content__container {
+    padding: 0 1rem;
+
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+  form {
+    input {
+      width: 100%;
+      margin: auto;
+    }
+    button {
+      width: 100%;
+      margin: 1rem auto;
+    }
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+  }
+  .right__container {
+    margin: 1rem;
+  }
+}

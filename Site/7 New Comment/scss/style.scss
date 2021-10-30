@@ -1,0 +1,33 @@
+$icon-color: black;
+$placeHolder-color: #c0c0c0;
+$input-color: #f7f7f7;
+$text-color: #686868;
+$background-color: #f9f6f1;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+header,
+footer {
+  width: 85%;
+  margin: auto;
+}
+
+@import "header";
+@import "content";
+
+footer {
+  margin: 1rem auto;
+
+  img {
+    position: relative;
+    margin: 3rem 0;
+    width: 7rem;
+  }
+}
+
+@import "tablets";

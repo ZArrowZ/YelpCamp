@@ -1,0 +1,41 @@
+@media (max-width: 31.25rem) {
+  header,
+  main,
+  footer {
+    margin-left: 0;
+  }
+  .menu__container {
+    top: 3.08rem;
+  }
+  .menu {
+    margin: 0 2rem;
+  }
+  .container {
+    display: block;
+    width: 90%;
+    margin: 0;
+  }
+  header {
+    margin: 2rem 2rem;
+  }
+  footer {
+    margin: auto 2rem;
+  }
+  form {
+    width: 100%;
+    margin: auto 2rem;
+  }
+  h1 {
+    width: 100%;
+    margin: 1rem 2rem;
+  }
+  input {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
+  }
+  button {
+    width: 100%;
+  }
+}

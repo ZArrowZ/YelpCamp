@@ -1,0 +1,45 @@
+.map {
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
+  justify-content: flex-start;
+
+  .map__contain {
+    padding: 3rem;
+    border: 1px solid rgba($text-color, 0.3);
+    height: max-content;
+    border-radius: 5px;
+  }
+  .map__one {
+    height: max-content;
+    border-radius: 5px;
+  }
+  .map__two {
+    display: none;
+  }
+}
+@media (max-width: 75rem) {
+  .map {
+    grid-row: 3;
+    grid-column: 1;
+    justify-content: center;
+
+    .map__contain {
+      width: 100%;
+      padding: 3rem;
+    }
+
+    .map__one {
+      display: none;
+    }
+    .map__two {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 31.6875rem) {
+  .map__contain {
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,70 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin: auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 20% 1rem;
+}
+h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+label {
+  color: $text-color;
+  margin: 1rem 0;
+}
+textarea {
+  resize: none;
+  border: none;
+  border-radius: 5px;
+  background: $input-color;
+  padding: 1.2rem;
+  min-width: 100%;
+}
+textarea::placeholder {
+  color: $placeHolder-color;
+  font-size: 1rem;
+}
+button {
+  margin: 1.5rem 0;
+  border: none;
+  background: black;
+  color: white;
+  padding: 18px;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 0.07rem;
+}
+
+@media (max-width: 75rem) {
+  main {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .container {
+    margin: 7.5%;
+  }
+  form {
+    margin: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+}

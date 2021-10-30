@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Campground</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="info">
+        <div class="text">
+            <h4>This project was made by <a href="https://github.com/Colt">Colt Steele</a> and designed by <a href="https://www.codewell.cc/">Codewell</a></h4>
+        </div>
+        <div class="close">
+            <img id="close" src="D:/Projects/YelpCamp/Assets/Close.svg" alt="close">
+        </div>
+    </div>
+    <header>
+        <div class="logo__container">
+            <img class="logo" src="D:/Projects/YelpCamp/Assets/Logo.svg" alt="YelpCamp logo">
+            <a id="home" href="/index.html">Home</a>
+        </div>
+        <div class="sign__container">
+            <div class="notLogged">
+                <a href="D:/Projects/YelpCamp/Site/4 Sign In/index.html">Login</a>
+                <a id="createAcc" href="D:/Projects/YelpCamp/Site/3 Sign Up/index.html">Create an account</a>
+            </div>
+            <img class="menu" src="D:/Projects/YelpCamp/Assets/Hamburger Menu.svg">
+
+            <div class="menu__container">
+                <ion-icon class="close__menu" name="close-outline"></ion-icon>
+                <div class="burger__links">
+                    <a id="home" href="/index.html">Home</a>
+                    <a href="D:/Projects/YelpCamp/Site/4 Sign In/index.html">Login</a>
+                    <a id="createAcc" href="D:/Projects/YelpCamp/Site/3 Sign Up/index.html">Create an account</a>
+                </div>
+                <div class="logged__inside">
+                    <h4></h4>
+                    <a class="logout" href="#">Logout</a>
+                </div>
+            </div>
+
+            <div class="logged__outside">
+                <h4></h4>
+                <a class="logout" href="#">Logout</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Add New Campground</h1>
+            <form>
+                <label for="name">Campground Name</label>
+                <input type="text" placeholder="seven Sisters Waterfall" id="name" name="name" required>
+
+                <label for="price">Price</label>
+                <input type="text" placeholder="$149" id="price" name="price" required>
+
+                <label for="image">Image</label>
+                <input type="url" placeholder="www.thepinoytraveler.com/2018/01/mt-ulap-diy-dayhike.html" id="image" name="image" required>
+
+                <label for="description">Description</label>
+                <textarea placeholder="The Seven Sisters is the 39th tallest waterfall in Norway. The 410-metre tall waterfall consists of seven separate streams, and the tallest of the seven has a free fall that measures 250 metres. The waterfall is located along the Geirangerfjorden in Stranda Municipality in Møre og Romsdal county, Norway." rows="13" required></textarea>
+
+                <button class="btn">Add Campground</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <img src="D:/Projects/YelpCamp/Assets/Logo.svg" alt="YelpCamp logo">
+    </footer>
+
+<!-- icons -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!-- javascript link -->
+<script src="javascript/app.js"></script>
+<script src="/Site/app.js"></script>
+</body>
+</html>

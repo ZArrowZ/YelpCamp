@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Comment</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="info">
+        <div class="text">
+            <h4>This project was made by <a href="https://github.com/Colt">Colt Steele</a> and designed by <a href="https://www.codewell.cc/">Codewell</a></h4>
+        </div>
+        <div class="close">
+            <img id="close" src="D:/Projects/YelpCamp/Assets/Close.svg" alt="close">
+        </div>
+    </div>
+    <header>
+        <div class="logo__container">
+            <img class="logo" src="D:/Projects/YelpCamp/Assets/Logo.svg" alt="YelpCamp logo">
+            <a id="home" href="/index.html">Home</a>
+        </div>
+        <div class="sign__container">
+            <div class="notLogged">
+                <a href="D:/Projects/YelpCamp/Site/4 Sign In/index.html">Login</a>
+                <a id="createAcc" href="D:/Projects/YelpCamp/Site/3 Sign Up/index.html">Create an account</a>
+            </div>
+            <img class="menu" src="D:/Projects/YelpCamp/Assets/Hamburger Menu.svg">
+
+            <div class="menu__container">
+                <ion-icon class="close__menu" name="close-outline"></ion-icon>
+                <div class="burger__links">
+                    <a id="home" href="index.html">Home</a>
+                    <a href="D:/Projects/YelpCamp/Site/4 Sign In/index.html">Login</a>
+                    <a id="createAcc" href="D:/Projects/YelpCamp/Site/3 Sign Up/index.html">Create an account</a>
+                </div>
+                <div class="logged__inside">
+                    <h4></h4>
+                    <a class="logout" href="#">Logout</a>
+                </div>
+            </div>
+
+            <div class="logged__outside">
+                <h4></h4>
+                <a class="logout" href="#">Logout</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form>
+                <h1>Add New Comment</h1>
+                <label for="description">Description</label>
+                <textarea name="description" id="description" rows="12" placeholder="This was probably the best camp i've visited this past year, definitely recommend visiting any time soon."></textarea>
+                <button>Post Comment</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <img src="D:/Projects/YelpCamp/Assets/Logo.svg" alt="YelpCamp logo">
+    </footer>
+
+
+<!-- icons -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!-- javascript link -->
+<script src="javascript/app.js"></script>
+<script src="/Site/app.js"></script>
+</body>
+</html>

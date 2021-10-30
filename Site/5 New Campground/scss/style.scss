@@ -1,0 +1,91 @@
+$placeHolder-color: #c0c0c0;
+$input-color: #f7f7f7;
+$text-color: #686868;
+$background-color: #f9f6f1;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+header,
+main,
+footer {
+  width: 85%;
+  margin: auto;
+}
+
+@import "../../2\ Search\ Page/scss/header";
+
+h1 {
+  margin: 2rem 0;
+  width: 25rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: $text-color;
+}
+
+input {
+  padding: 18px 24px;
+  margin: 1rem auto;
+  border: none;
+  background: $input-color;
+  border-radius: 5px;
+  width: 25rem;
+}
+input::placeholder {
+  color: $placeHolder-color;
+}
+
+textarea {
+  resize: none;
+  background: $input-color;
+  border: none;
+  border-radius: 5px;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 25rem;
+}
+textarea::placeholder {
+  color: $placeHolder-color;
+  width: 95%;
+  margin: auto;
+  line-height: 1.2rem;
+}
+
+button {
+  margin: 1rem auto 0 auto;
+  padding: 18px 24px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  width: 25rem;
+  cursor: pointer;
+}
+footer {
+  margin: 1rem auto;
+
+  img {
+    position: relative;
+    margin: 3rem 0;
+    width: 7rem;
+  }
+}
+
+@import "tablets";
+@import "phones";

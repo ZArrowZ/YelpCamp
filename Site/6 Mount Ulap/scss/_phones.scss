@@ -1,0 +1,33 @@
+@media (max-width: 31.6875rem) {
+  header {
+    margin: 2rem auto;
+  }
+  .menu__container {
+    top: 3.1rem;
+  }
+  .header__content {
+    justify-content: center;
+    align-items: center;
+  }
+  .inside__header {
+    width: 80%;
+  }
+  form {
+    flex-direction: column;
+
+    input {
+      width: 100%;
+      margin: auto;
+    }
+    input::placeholder {
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: center;
+    }
+    button {
+      width: 100%;
+      margin: 1rem auto;
+      padding: 1rem;
+    }
+  }
+}
