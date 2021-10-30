@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campgrounds</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="style/search page/main.css">
     <!-- link font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,13 +23,13 @@
         </div>
         <header>
             <div class="logo__container">
-                <img class="logo" src="/Assets/Logo.svg" alt="YelpCamp logo">
-                <a id="home" href="/index.html">Home</a>
+                <img class="logo" src="Assets/Logo.svg" alt="YelpCamp logo">
+                <a id="home" href="index.html">Home</a>
             </div>
             <div class="sign__container">
                 <div class="notLogged">
-                    <a href="Site/4 Sign In/index.html">Login</a>
-                    <a id="createAcc" href="Site/3 Sign Up/index.html">Create an account</a>
+                    <a href="signin.html">Login</a>
+                    <a id="createAcc" href="signup.html">Create an account</a>
                 </div>
                 <img class="menu" src="/Assets/Hamburger Menu.svg">
 
@@ -37,8 +37,8 @@
                     <ion-icon class="close__menu" name="close-outline"></ion-icon>
                     <div class="burger__links">
                         <a id="home" href="index.html">Home</a>
-                        <a href="Site/4 Sign In/index.html">Login</a>
-                        <a id="createAcc" href="Site/3 Sign Up/index.html">Create an account</a>
+                        <a href="signin.html">Login</a>
+                        <a id="createAcc" href="signup.html">Create an account</a>
                     </div>
                     <div class="logged__inside">
                         <h4></h4>
@@ -59,20 +59,20 @@
                     <h1>Welcome to YelpCamp!</h1>
                     <p>view our hand-picked campgrounds form all over the world, or add your own.</p>
                     <form>
-                        <img src="../../Assets/Icon.svg">
+                        <img src="Assets/Search Icon.svg">
                         <input id="filter" type="search" placeholder="Search for camps" aria-label="Search through site content">
                         <button type="button" id="btn">Search</button>
                     </form>
-                    <a href="Site/5 New Campground/index.html">Or add your own campground</a>
+                    <a href="newcampground.html">Or add your own campground</a>
                 </div>
             </div>
 
             <ul class="camps__container">
                 <li class="camp">
-                    <img src="../../Assets/Camp Images/Mount Ulap.jpg" alt="reaver and trees in the natural">
+                    <img src="Assets/Camp Images/Mount Ulap.jpg" alt="reaver and trees in the natural">
                     <h3>Mount Ulap</h3>
                     <p>One of the most famous hikes in Benguet is Mt Ulap in Itogon.</p>
-                    <a href="Site/6 Mount Ulap/index.html">View Campground</a>
+                    <a href="mountulap.html">View Campground</a>
                 </li>
                 <li class="camp">
                     <img src="Assets/Camp Images/Calaguas Island.jpg" alt="photo of natural mountains and trees">
@@ -107,14 +107,13 @@
             </ul>
         </main>
         <footer>
-            <img src="./Assets/Logo.svg" alt="YelpCamp logo">
+            <img src="Assets/Logo.svg" alt="YelpCamp logo">
         </footer>
     </div>
 <!-- icons -->
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <!-- javascript link -->
-<script src="/Site/3 Sign Up/javascript/app.js"></script>
-<script src="javascript/app.js"></script>
+<script src="javascript/search page/app.js"></script>
 </body>
 </html>

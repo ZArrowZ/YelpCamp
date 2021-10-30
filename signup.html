@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style/sign up/style.css">
 </head>
 <body>
     <div class="container__all">
@@ -15,22 +15,21 @@
                     <img src="/Assets/Logo.svg" alt="YelpCamp logo">
                 </div>
                 <div class="back">
-                    <a href="/Site/2 Search Page/index.html"><i class='fas fa-long-arrow-alt-left'></i> Back to campgrounds</a>
+                    <a href="searchpage.html"><i class='fas fa-long-arrow-alt-left'></i> Back to campgrounds</a>
                 </div>
             </div>
             <div class="content__container">
                 <h1>Start exploring camps from all around the world.</h1>
-                <form>
-                    <p>This account is not exist</p>
+                <form action="searchpage.html">
                     <label for="username">Username</label>
                     <input type="text" class="username" name="username" id="username" placeholder="johndoe_91" required>
 
                     <label for="password">Password</label>
-                    <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
+                    <input type="password" id="password" name="password" placeholder="Choose Password" required>
 
-                    <button id="btn" type="button">Login</button>
+                    <button id="btn" type="submit">Create an account</button>
                 </form>
-                <p>Not a user yet? <a href="/Site/3 Sign Up/index.html">Create an account</a></p>
+                <p>Already a user? <a href="signin.html">Sign in</a></p>
             </div>
         </div>
         <div class="right">
@@ -38,7 +37,7 @@
                 <h2>“YelpCamp has honestly saved me hours of research time, and the camps on here are definitely well picked and added.”</h2>
                 <div class="user">
                     <div class="img">
-                        <img src="/Assets/User Testimonial.svg" alt="user photo">
+                        <img src="Assets/User Testimonial.svg" alt="user photo">
                     </div>
                     <div class="name">
                         <h4>May Andrews</h4>
@@ -49,7 +48,5 @@
         </div>
     </div>
 <script src="https://kit.fontawesome.com/cdf87b270f.js" crossorigin="anonymous"></script>
-<!-- link to javascript -->
-<script src="javascript/app.js"></script>
 </body>
 </html>
